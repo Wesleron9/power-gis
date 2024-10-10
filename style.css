@@ -1,0 +1,38 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #090b10;
+  color: #cccccc;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#map {
+  width: 100vw;
+  height: 100vh;
+  /* filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) */
+  /* brightness(0.7); */
+}
+
+.controls {
+  position: absolute;
+  z-index: 999;
+  left: 10px;
+  bottom: 10px;
+  background: #fff;
+  color: #090b10;
+  padding: 5px;
+  border-radius: 2px;
+}
